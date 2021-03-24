@@ -1,0 +1,49 @@
+.paragraph {
+  text-indent: 50px;
+}
+
+.flex-container
+{
+	display: flex;
+	align-items: center;
+	background-color: #E5E5E5;
+}
+
+.img-with-text {
+    text-align: center;
+    width: [width of img];
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+	width:40%;
+}
+
+.zoom {
+  transition: transform .2s;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+.home_zoom {
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.home_zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+hr.solid {
+  border-top: 3px solid;
+  color: white;
+}
